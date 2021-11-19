@@ -7,15 +7,23 @@ Text-domain: fancy-lab
 License: GNU General Public License
 */
 
-.top-bar {
-  background: red;
-  height: 70px;
-}
-
 .brand {
   background: green;
 }
 
 .second-column {
   background: yellow;
+}
+
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 0;
+}
+
+.main-menu ul li {
+  display: inline;
+  margin: 0 5px 0 0;
 }
