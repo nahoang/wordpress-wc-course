@@ -11,3 +11,11 @@ License: GNU General Public License
   background: red;
   height: 70px;
 }
+
+.brand {
+  background: green;
+}
+
+.second-column {
+  background: yellow;
+}

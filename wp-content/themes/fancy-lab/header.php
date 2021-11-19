@@ -20,14 +20,23 @@
 <body <?php body_class(); ?>>
   <div id="page" class="site">
     <header>
-    <section class="search">Search</section>
+    <section class="search">
+      <div class="container">
+        Search
+      </div>
+  </section>
       <section class="top-bar">
-        <div class="brand">
-          Logo
+        <div class="container">
+          <div class="row">
+            <div class="brand col-3 ">
+            Logo
+          </div>
+          <div class="second-column col-9 ">
+            <div class="account">Account</div>
+            <nav class="main-menu">Menu</nav>
+          </div>
+          </div>
         </div>
-        <div class="second-column">
-          <div class="account">Account</div>
-          <nav class="main-menu">Menu</nav>
-        </div>
+        
       </section>
     </header>
