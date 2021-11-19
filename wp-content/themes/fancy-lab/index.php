@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fancy Lab</title>
-</head>
-<body <?php body_class(); ?>>
-  <div id="page" class="site">
-    <header>
-      <section class="search">Search</section>
-      <section class="top-bar">
-        <div class="brand">
-          Logo
-        </div>
-        <div class="second-column">
-          <div class="account">Account</div>
-          <nav class="main-menu">Menu</nav>
-        </div>
-      </section>
-    </header>
+<?php
+/**
+ * The main template file
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Fancy Lab
+ */
+
+get_header();  ?>
+
     <div class="content-area">
       <main>
         <section class="slider">Slide</section>
@@ -29,12 +18,6 @@
         <section class="lab-blog">News</section>
       </main>
     </div>
-    <footer>
-      <section class="footer-widgets">Footer Widgets</section>
-      <section class="copyright">Copyright</section>
-    </footer>
-  </div>
-</body>
-</html>
-
+   
+    <?php get_footer(); ?>
 
