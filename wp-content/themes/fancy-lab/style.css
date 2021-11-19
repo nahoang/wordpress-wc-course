@@ -1,10 +1,13 @@
 /*
 Theme Name: Fancy Lab
-Theme URI: http://wwww.google.com
 Author: nahoang
-Author URI: http://wwww.google.com
 Description: Fancy Lab is a compatible WooCommerce theme made with Wordpress.
 Version: 1.0
 Text-domain: fancy-lab
 License: GNU General Public License
 */
+
+.top-bar {
+  background: red;
+  height: 70px;
+}
