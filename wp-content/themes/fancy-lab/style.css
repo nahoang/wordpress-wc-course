@@ -178,6 +178,11 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
   padding: 12px;
 }
 
+/* Cart */
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+  width: 150px;
+}
+
 /* General */
 
 .size-auto, 
