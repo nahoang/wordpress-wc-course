@@ -11,7 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
 */
 
-body {
+
+body{
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -36,6 +37,36 @@ body {
 .main-menu ul li:last-child{ 
   margin: 0; 
 }
+
+.main-menu .dropdown:hover>.dropdown-menu, 
+.main-menu .dropup:hover>.dropdown-menu  {
+display: block;
+}
+
+.main-menu .navbar-toggler-icon {
+  background-image: url('img/hamburger-menu.svg');
+}
+
+
+/* Search Form */
+.search-form button{
+  background-image: url('img/search.svg');
+  height: 23px;
+  width: 23px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+}
+
+.search-form input[type="search"]{
+  background-color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 110%;
+  padding: 0.3rem 1rem;
+  margin-right: 0.3rem;
+}
+
 
 
 /* Footer - Footer Menu */
