@@ -20,7 +20,8 @@
       <section class="copyright">
         <div class="container">
           <div class="row">
-            <div class="copyright-text col-12 col-md-6">Copyright</div>
+            <div class="copyright-text col-12 col-md-6">
+              <?php get_theme_mod( 'set_copyright', 'Copyright 2021 - All rights reversed' ); ?></div>
             <nav class="footer-menu col-12 col-md-6 text-left text-md-right">
               <?php 
                 wp_nav_menu(
