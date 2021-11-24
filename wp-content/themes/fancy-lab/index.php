@@ -14,7 +14,7 @@ get_header();  ?>
         <section class="slider">
           <div class="container">
             <div class="row">
-
+              
             </div>
           </div>
         </section>
