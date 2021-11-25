@@ -56,7 +56,10 @@
      'flex_width' => true,
    ) );
 
+
+   add_theme_support( 'post-thumbnails' );
    add_image_size( 'fancy-lab-slider', 1920, 800, array( 'center', 'center') );
+   add_image_size( 'fancy-lab-blog', 960, 640, array( 'center', 'center') );
 
    if (! isset( $content_width )) {
      $content_width = 600;
