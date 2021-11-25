@@ -62,9 +62,15 @@
                 </div>
         </section>
         <section class="popular-products">
+          <?php 
+            $popular_limit  = get_theme_mod('set_popular_max_num', 4);
+            $popular_col  = get_theme_mod('set_popular_max_col', 4);
+            $arrivals_limit  = get_theme_mod('set_new_arrivals_max_num', 4);
+            $arrivals_col  = get_theme_mod('set_new_arrivals_max_col', 4);
+          ?>
          <div class="container">
             <h2>Popular Products</h2>
-            <?php echo do_shortcode('[products limit="4" columns="4" orderby="popularity"]'); ?>
+            <?php echo do_shortcode('[products limit="' .$popular_limit. '" columns="' .$popular_col. '" orderby="popularity"]'); ?>
           </div>
         </section>
         <section class="new-arrivals">
@@ -74,10 +80,15 @@
           </div>
         </section>
         <section class="deal-of-the-week">
-
+          <h2>Deal of the Week</h2>
           <div class="container">
-              <div class="row">
-                
+              <div class="row d-flex align-items-center">
+                <div class="deal-img col-md-6 col-12 ml-auto text-center">
+                  
+                </div>
+                <div class="deal-desc col-md-4 col-12 mr-auto text-center">
+                  
+                </div>
               </div>
             </div>
         </section>
